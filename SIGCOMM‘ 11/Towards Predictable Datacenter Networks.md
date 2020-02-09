@@ -1,5 +1,7 @@
 # ABSTRACT 摘要
 
+##
+
 The shared nature of the network in today’s multi-tenant datacenters implies that network performance for tenants can vary signiﬁcantly.
 
 在当今的多租户数据中心中，网络的共享特性意味着租户的网络性能可能会差异显著。
@@ -24,8 +26,7 @@ To this eﬀect, the key contribution of this paper is the design of virtual net
 
 为此，本文的关键贡献在于虚拟网络抽象的设计，该设计捕捉到租户的性能保证、他们的成本和提供商的收入之间的权衡。
 
-
-
+##
 
 To illustrate the feasibility of virtual networks, we develop Oktopus, a system that implements the proposed abstractions. 
 
@@ -33,8 +34,7 @@ To illustrate the feasibility of virtual networks, we develop Oktopus, a system 
 
 Using realistic, large-scale simulations and an Oktopus deployment on a 25-node two-tier testbed, we demonstrate that the use of virtual networks yields signiﬁcantly better and more predictable tenant performance. 
 
-
-通过在25个节点的两层测试台上使用真实的大型模拟和Oktopus部署，我们证明使用虚拟网络可以显著地提高和提高可预测的租户性能。
+通过在25个节点的两层测试台上使用真实的大型模拟和Oktopus部署，我们证明使用虚拟网络可以显著地提高和优化可预测的租户性能。
 
 Further, using a simple pricing model, we ﬁnd that the our abstractions can reduce tenant costs by up to 74% while maintaining provider revenue neutrality. 
 
